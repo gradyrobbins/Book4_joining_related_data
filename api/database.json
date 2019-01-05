@@ -1,34 +1,96 @@
 {
-    "food": [
+    "Employees": [
     {
         "id": 1,
-        "name": "Linguine",
-        "type": "pasta",
-        "ethnicity": "italian"
+        "name": "Doc Brown",
+        "computerId": 1,
+        "departmentId": 5
     },
     {
         "id": 2,
-        "name": "Massaman curry",
-        "type": "curry",
-        "ethnicity": "thai"
+        "name": "Pappy",
+        "computerId": 2,
+        "departmentId": 4
     },
     {
         "id": 3,
-        "name": "Green curry",
-        "type": "curry",
-        "ethnicity": "thai"
+        "name": "Uncle Willie",
+        "computerId": 3,
+        "departmentId": 3
     },
     {
         "id": 4,
-        "name": "Ravioli Funghi",
-        "type": "pasta",
-        "ethnicity": "italian"
+        "name": "Kegger",
+        "computerId": 4,
+        "departmentId": 2
     },
     {
         "id": 5,
-        "name": "Tuscan Soup",
-        "type": "vegetarian",
-        "ethnicity": "italian"
+        "name": "PlasticMan",
+        "computerId": 5,
+        "departmentId": 1
+    }
+
+    ],
+
+    "Departments": [
+    {
+        "id": 1,
+        "name": "Operations"
+
+    },
+    {
+        "id": 2,
+        "name": "Inventory"
+
+    },
+    {
+        "id": 3,
+        "name": "Compliance"
+
+    },
+    {
+        "id": 4,
+        "name": "Maintenance"
+
+    },
+    {
+        "id": 5,
+        "name": "Training"
+
+    }
+    ],
+
+    "Computers": [
+    {
+        "id": 1,
+        "computerId": 1,
+        "name": "Flux Capacitor 1985"
+
+    },
+    {
+        "id": 2,
+        "computerId": 2,
+        "name": "Penthouse Pin-up with a pentium Processor 34-24-36"
+
+    },
+    {
+        "id": 3,
+        "computerId": 3,
+        "name": "Atari 2600"
+
+    },
+    {
+        "id": 4,
+        "computerId": 4,
+        "name": "Super Nintendo"
+
+    },
+    {
+        "id": 5,
+        "computerId": 5,
+        "name": "Linux Booplesnort 5000"
+
     }
     ]
 }
