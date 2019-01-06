@@ -1,8 +1,15 @@
+import cardBuilder from "./cardBuilder"
+
 const data = {
     fetchData() {
-       return fetch("http://localhost:8088/Employees?_expand=Departments&_expand=Computers")
+       return fetch("http://localhost:8088/Employees")
         .then(response => response.json())
-        .then(data2 => console.log(data2))
+        .then(parsedData => parsedData.forEach(obj => {
+            console.log(obj)
+            cardBuilder.buildCard(obj);
+            // const foodAsHTML = foodFactory(food)
+            // addFoodToDom(foodAsHTML)
+        }))
     }
 }
 
