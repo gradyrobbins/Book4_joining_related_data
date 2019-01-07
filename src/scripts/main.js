@@ -1,11 +1,10 @@
 console.log("hello world main.js")
 
 import data from "./data"
-let bloop = data.fetchData();
-// console.log(bloop)
+data.fetchData();
 
-import cardBuilder from "./cardBuilder"
-cardBuilder.buildCard(bloop)
+// import cardBuilder from "./cardBuilder"
+// cardBuilder.buildCard(bloop)
 
 // Once you have retrieved all of the data from your API, display them in the DOM. Create an HTML representation of each object which will display the name, its computer, and its department.
 

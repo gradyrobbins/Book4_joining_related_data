@@ -70,31 +70,31 @@
     "Computers": [
     {
 
-        "computerId": 1,
+        "id": 1,
         "name": "Flux Capacitor 1985"
 
     },
     {
 
-        "computerId": 2,
-        "name": "Penthouse Pin-up with a pentium Processor 34-24-36"
+        "id": 2,
+        "name": "Pentium Processor "
 
     },
     {
 
-        "computerId": 3,
+        "id": 3,
         "name": "Atari 2600"
 
     },
     {
 
-        "computerId": 4,
+        "id": 4,
         "name": "Super Nintendo"
 
     },
     {
 
-        "computerId": 5,
+        "id": 5,
         "name": "Linux Booplesnort 5000"
 
     }
