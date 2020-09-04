@@ -1,4 +1,4 @@
-###### To run:  cd src/lib ```grunt```
+###### To run:  cd src/lib ```npm start```
 
 # Book 4 - joining related data
 
